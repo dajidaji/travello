@@ -27,12 +27,20 @@
     align-items: center;
     position: absolute;
     justify-content: space-between;
-    padding: 20px 120px;
+    padding: 20px 0px;
     top:0;
     left: 0;
     z-index: 3;
     width: 100%;
     border-bottom: 1px solid rgba(255,255,255,0.2);
+}
+.container{
+    max-width: 1190px;
+    width: 100%;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
 }
 
 .header_right_content{
@@ -85,14 +93,13 @@ figure img {
 }
 .hero_content{
     max-width: 592px;
-    margin-left:120px;
+    margin-left:0px;
     color: #ffffff;
     z-index: 3;
-
 }
 h1{
     font-size: 60px;
-    font-family: "playfair display", sans-serif;
+    font-family:"playfair display", sans-serif;
     font-weight: 600;
     margin-bottom: 24px;
     line-height:66px ;
@@ -115,4 +122,56 @@ p{
     z-index: 2;
 }
 
+.waterfall {
+    max-width: 577px;
+    max-height: 425px;
+    margin:0 auto;
+    border:2px solid #E3DEC1;
+    
+}
+.mountains{
+    max-width: 386px;
+    max-height: 263px;
+    margin-left:280px ;
+    position:absolute;
+    z-index: 1;
+    margin:283px 653px 0px 401px;
+}
+.explore {
+    max-width: 486px;
+    max-height: 385px;
+    gap:20px;
+    margin: 30px 113px 131px 841px ;
+    display: flex;
+    align-items: flex-start;
+    flex-direction: column;
+}
+.about_us{
+    margin-top: 166px;
+    display: flex;
+    align-items: center;
+    
+}
 
+
+h2{
+    font-family: "Playfair Display", sans-serif;
+    font-size: 18px;
+    font-weight: 500;
+    color: #2094E6;
+    line-height: 24px;
+}
+h3{
+    font-family: "Playfair Display", sans-serif;
+    font-weight: 500;
+    font-size: 45px;
+    line-height: 60px;
+    color: #121212;
+}
+.explore_line{
+    font-family: "Work Sans", sans-serif;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 150%;
+    color: #333333;
+}
