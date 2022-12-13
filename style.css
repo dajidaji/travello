@@ -47,8 +47,8 @@
     display: flex;
     align-items: center;
 }
-.header_right_content nav{
-    margin-right: 82px;
+.header_right_content nav {
+    margin-right: 85px;
 }
 
 .header_right_content nav ul{
@@ -66,6 +66,33 @@
     font-family: "work-sans", sans-serif;
     text-decoration: none;
 }
+@media(max-width:1024px){
+    .header_right_content {
+        display: none;
+    }
+    .container{
+        width: 100%;
+        padding: 0 15px;
+    }
+    .logo {
+        margin: auto;
+    }
+    .hero_content{
+      margin: auto;
+      margin-top: 100px;  
+    }  
+    .hero_content .theme_button{
+         display: flex;
+         justify-content: center;
+    }
+   .page_title{
+    padding: 0 50px;
+   }
+   .page_subtitle{
+    padding: 0 50px;
+   }
+
+}
 .header_right_content nav ul li a:hover{
     background-color: #033d67;
     color: #2094E6;
@@ -78,7 +105,7 @@
     min-height: 660px;
 
 }
-figure{
+.banner_img{
     position: absolute;
     top: 0;
     left: 0;
@@ -125,31 +152,40 @@ p{
 .waterfall {
     max-width: 577px;
     max-height: 425px;
-    margin:0 auto;
     border:2px solid #E3DEC1;
+    padding: 10px;
+    box-shadow: 0px 4px 8px 0px rgba(0, 0, 0, 0.25);
     
 }
 .mountains{
-    max-width: 386px;
+   position: absolute;
+    max-width:386px ;
     max-height: 263px;
-    margin-left:280px ;
-    position:absolute;
-    z-index: 1;
-    margin:283px 653px 0px 401px;
+    bottom: -121px;
+    right: -90px;
 }
 .explore {
     max-width: 486px;
     max-height: 385px;
     gap:20px;
-    margin: 30px 113px 131px 841px ;
     display: flex;
     align-items: flex-start;
     flex-direction: column;
+    
+    
+    
 }
 .about_us{
     margin-top: 166px;
     display: flex;
     align-items: center;
+    gap:135px;
+    
+}
+.about_us_img {
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
     
 }
 
