@@ -1,0 +1,105 @@
+@media (max-width: 1024px) {
+  .header_right_content {
+    display: none;
+  }
+  .container {
+    width: 100%;
+    padding: 0 15px;
+  }
+  .logo {
+    margin: auto;
+  }
+  .hero_content {
+    margin-top: 100px;
+    margin-left: 50px;
+    margin-right: 50px;
+    margin-bottom: 20px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+  .hero_content .theme_button {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+  }
+  figure.banner_img img {
+    -o-object-fit: cover;
+       object-fit: cover;
+  }
+  .container {
+    max-width: 1024px;
+  }
+  div.container div.about_us_img {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: row;
+            flex-direction: row;
+    min-width: 200px;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+    gap: 30px;
+  }
+  .mountains {
+    position: relative;
+    max-width: 100px;
+    bottom: 0px;
+    right: 0px;
+    border: 2px solid #E3DEC1;
+    padding: 10px;
+    -webkit-box-shadow: 0px 4px 8px 0px rgba(0, 0, 0, 0.25);
+            box-shadow: 0px 4px 8px 0px rgba(0, 0, 0, 0.25);
+  }
+  .waterfall {
+    max-width: 100px;
+  }
+  section.about_us div.container {
+    width: 100%;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    margin-left: 50px;
+    margin-right: 50px;
+    margin-bottom: 20px;
+  }
+  .explore .theme_button {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+  }
+  .about_us {
+    margin-top: 20px;
+    margin-bottom: 20px;
+  }
+  .explore {
+    max-width: none;
+    max-height: none;
+  }
+  .benefits_list {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+}

@@ -1,0 +1,32 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    position: relative;
+}
+.theme_button a {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    padding: 8px 24px;
+    text-decoration: none;
+    background-color: #2094E6;
+    color: #ffffff;
+    font-family: "work-sans", sans-serif;
+    font-size: 16px;
+
+
+    
+}
+.container{
+    max-width: 1190px;
+    width: 100%;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.theme_button a:hover{
+    background-color: #033d67;
+    color: #2094E6;
+}

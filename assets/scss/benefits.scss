@@ -1,0 +1,53 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    position: relative;
+}
+
+.container{
+    max-width: 1190px;
+    width: 100%;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+
+
+.benefits_list{
+    display: flex;
+    align-items: center;
+    perspective: 1000px;
+    perspective-origin: 25%;
+
+}
+.benefits_item {
+    padding: 40px 30px 30px;
+    box-shadow:0 7px 25px rgba(100, 100, 11, 0.2);
+    margin-right: 20px;
+    transition: 2s;
+}
+.benefits_item:hover{
+    transform: rotateX(75deg);
+}
+.icon{
+    margin-bottom: 14px;
+    display: block;
+}
+.benefit_title {
+    font-size: 24px;
+    color: #121212;
+    font-weight: 500;
+    font-family: "Playfair Display",serif;
+    margin-bottom: 15px;
+}
+.benefit_text {
+    font-size: 16px;
+    color: #333333;
+    font-family:"Work Sans", sans-serif;
+}
+section.benefits .container{
+    margin-bottom: 150px;
+}
